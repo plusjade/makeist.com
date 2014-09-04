@@ -1,0 +1,50 @@
+@media only screen and (max-width : 600px) {
+  #heading {
+    font-size: 30px;
+  }
+  .slide-wrap {
+    padding: 20px;
+  }
+  .graphic-headline {
+    .title {
+      font-size: 26px;
+    }
+  }
+  .benefit {
+    h4 {
+      font-size:20px;
+      svg {
+        display: none;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width : 1200px) {
+  #heading {
+    font-size: 70px;
+  }
+  .slide-wrap {
+    padding: 60px 0;
+  }
+  .graphic-headline {
+    position: absolute !important;
+    top: 25%;
+    width: 65%;
+    left: -70%;
+    svg {
+      width: 170px !important;
+      height: 170px !important;
+    }
+    .title {
+      margin-bottom: 40px;
+    }
+  }
+  .slide-content {
+    .circle-connector {
+      display: block;
+    }
+    width: 55%;
+    margin-left: 40%;
+  }
+}

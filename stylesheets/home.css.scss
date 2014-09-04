@@ -1,0 +1,303 @@
+$main-color: #1c9edb;
+$main-color-dark: #1780b0;
+$main-color-darkest: #0f5575;
+$contrast: #ffd600;
+$background-color: #313645;
+$icon-color: #e0e0e0;
+
+html, body {
+  margin: 0;
+  padding:0;
+}
+body {
+  font-family: 'Quicksand', "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 400;
+  font-size:15px;
+  color: #546e7a;
+  text-align: center;
+  background-color: $background-color;
+}
+h1, h2, h3, h4, h5, h6 { margin:0 }
+h1 { font-size: 70px; }
+h2 { font-size: 40px; }
+h3 { font-size: 36px; }
+h4 { font-size: 28px; }
+h5 { font-size: 24px; }
+h6 { font-size: 20px; }
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.5em;
+  font-weight: 300;
+}
+h5 {
+  margin:20px 0;
+}
+pre {
+  font-size: 18px;
+}
+p {
+  margin:0;
+  padding:0;
+}
+ul, ol {
+  margin:0;
+}
+a {
+  &:link {
+    color: inherit;
+  }
+  &:visited {
+    color: inherit;
+  }
+  &:hover {
+    color: #cfd8dc;
+  }
+  &:active {
+    color: #cfd8dc;
+  }
+
+}
+
+#banner {
+  padding: 60px 20px 100px 20px;
+  background: $main-color;
+}
+#heading {
+  margin-bottom:60px;
+  overflow: hidden;
+  color:#FFF;
+  font-size: 50px;
+  text-shadow: 2px 2px 0px $main-color-dark;
+}
+#tagline {
+  font-size: 1.4em;
+  margin-bottom: 60px;
+  color:#FFF;
+  text-shadow: 1px 1px 0px $main-color-dark;
+}
+
+.slide-wrap {
+  $text-color: #90a4ae;
+  position: relative;
+  padding: 20px 10%;
+  clear: both;
+  color: $text-color;
+  .graphic-headline {
+    position: relative;
+    text-align: center;
+    svg {
+      fill: $icon-color;
+      width: 100px;
+      height: 100px;
+    }
+    .title {
+      color: $icon-color;
+      text-shadow: 1px 1px 0px #222630;
+      margin-bottom: 20px;
+    }
+  }
+  .slide-content {
+    position: relative;
+    min-height: 300px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.5em;
+    .benefit {
+      padding: 0;
+      margin-bottom: 30px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      h4 {
+        margin-bottom: 10px;
+        position: relative;
+        color: $icon-color;
+        text-shadow: 1px 1px 0px #222630;
+        svg { // circles
+          position: absolute;
+          width: 20px;
+          height: 20px;
+          top: 25%;
+          left: -50px;
+          fill: $background-color;
+          stroke: $icon-color;
+          stroke-width:1.5;
+        }
+      }
+      div {
+        font-size: 18px;
+        line-height: 1.5em;
+      }
+    }
+  }
+}
+.circle-connector {
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: -40px;
+  height: 81%;
+  width: 1px;
+  stroke: $icon-color;
+  stroke-width:1.5;
+}
+
+
+
+#benefits-teachers {
+  $background-color: #222630;
+  background-color: $background-color;
+  $icon-color: #ffee58;
+  .graphic-headline {
+    svg {
+      fill: $icon-color;
+    }
+    .title {
+      color: $icon-color;
+    }
+  }
+
+  .slide-content {
+    .circle-connector {
+      stroke: $icon-color;
+    }
+    .benefit {
+      h4 {
+        svg {
+          fill: $background-color;
+          stroke: $icon-color;
+        }
+      }
+    }
+  }
+}
+
+#benefits-students {
+  $icon-color: #4dd0e1;
+  .graphic-headline {
+    svg {
+      fill: $icon-color;
+    }
+    .title {
+      color: $icon-color;
+    }
+  }
+  .slide-content {
+    .circle-connector {
+      stroke: $icon-color;
+    }
+    .benefit {
+      h4 {
+        svg {
+          stroke: $icon-color;
+        }
+      }
+    }
+  }
+}
+
+#how-it-works {
+  background-color: #222630;
+  $icon-color: #64dd17;
+  .graphic-headline {
+    svg {
+      fill: $icon-color;
+    }
+    .title {
+      color: $icon-color;
+    }
+  }
+  .slide-content {
+    .circle-connector {
+      stroke: $icon-color;
+    }
+    .benefit {
+      h4 {
+        svg {
+          stroke: $icon-color;
+        }
+      }
+    }
+  }
+}
+#fork-strategy {
+  $icon-color: #5c6bc0;
+  .graphic-headline {
+    svg {
+      fill: $icon-color;
+    }
+    .title {
+      color: $icon-color;
+    }
+  }
+  .slide-content {
+    .circle-connector {
+      stroke: $icon-color;
+    }
+    .benefit {
+      h4 {
+        svg {
+          stroke: $icon-color;
+        }
+      }
+    }
+  }
+}
+
+#about {
+  background-color: #222630;
+  $icon-color: #ff9100;
+  .graphic-headline {
+    svg {
+      fill: $icon-color;
+    }
+    .title {
+      color: $icon-color;
+    }
+  }
+  .slide-content {
+    .circle-connector {
+      stroke: $icon-color;
+    }
+    .benefit {
+      h4 {
+        svg {
+          stroke: $icon-color;
+        }
+      }
+    }
+  }
+}
+
+
+#newsletter {
+  background-color: $main-color-darkest;
+}
+#mce-EMAIL {
+  width: 200px;
+  border:1px solid #fbe9e7;
+}
+#signup-form {
+  margin: 0 auto;
+  font-family: inherit;
+  text-align: center;
+  color:#FFF;
+  input {
+    padding: 2px 8px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  form {
+    padding: 20px;
+  }
+}
+#mc-embedded-subscribe {
+  background-color: $main-color-darkest;
+  color:#FFF;
+  border-radius: 5px;
+  border:1px solid #FFF;
+  cursor: pointer;
+  &:hover {
+    background-color: #FFF;
+    color: #212121;
+  }
+}

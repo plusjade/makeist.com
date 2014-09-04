@@ -1,0 +1,185 @@
+#banner
+  %h1#heading
+    Realtime engagement analytics 
+    %br
+    for your students' coding projects.
+  #tagline
+    Drive student success by assessing and responding to indivual student needs
+    %br
+    throughout the lifecycle of their code projects.
+
+#newsletter
+  = partial("newsletter")
+
+#benefits-teachers.slide-wrap
+  .slide-content
+    .graphic-headline
+      %h2.title Benefits for Teachers
+      :plain
+        <svg viewBox="0 0 100 71.707" enable-background="new 0 0 100 71.707">
+          <path d="M14.729,17.142c3.219,0,5.817-2.601,5.817-5.816c0-3.21-2.598-5.816-5.817-5.816c-3.21,0-5.815,2.606-5.815,5.816    C8.914,14.541,11.519,17.142,14.729,17.142z M20.923,40.1l-0.256-12.865l6.538,4.395l10.801-10.674l-1.308-1.431l9.115-9.978    l-0.907-0.829l-9.04,9.896l-0.401-0.439l-8.724,7.21l-8.135-5.188c-1.133-1.039-2.639-1.669-4.262-1.649    c-1.511,0.033-2.868,0.626-3.92,1.549L0,32.518l10.036,8.003l2.086-2.265l-2.908-3.364l1.757-4.115l6.833,2.918l-4.098,9.599    l-4.985-2.129c0.001,0.013,0.001,0.025,0.004,0.041L7.506,53.599L6.874,71.49l6.147,0.217l0.614-17.605l0.765-7.765    c0.124,0.008,0.553,0.021,0.583,0.021l0.764,7.743l0.613,17.605l6.147-0.213L21.89,53.791C21.89,53.791,20.933,40.667,20.923,40.1    z M6.771,32.07l1.648-1.986l0.08,3.981L6.771,32.07z"/>
+          <path d="M100,0H26.813v23.677l8.754-6.864l0.546,0.599l8.625-9.506l1.822,1.656l-8.78,9.674l1.599,1.749L27.321,33.189    l-0.508-0.341v9.282h26.453l-2.524,10.458h-6.095v2.458h5.501l-3.467,14.361l2.393,0.577l3.608-14.938h9.342V69.55h2.458V55.046    h9.037l3.606,14.938l2.393-0.577l-3.465-14.361h5.805v-2.458h-6.398L72.934,42.13H100V0z M62.023,52.588h-8.749l2.526-10.458    h6.223V52.588z M64.481,52.588V42.13h5.92l2.523,10.458H64.481z"/>
+        </svg>
+    <svg class="circle-connector" viewBox="0 0 1 10" preserveAspectRatio="none"><line x1=0 y1=0 x2=0 y2=10 /></svg>
+    .benefit
+      %h4
+        View all your students' coding activity in one place.
+        <svg viewBox="0 0 20 20"><circle cx=10 cy=10 r=8 /></svg>
+      %div
+        Your one stop dashboard immediately lets you see where students are at a glance.
+        Dramatically save time by eliminating the download/upload routine or manually assessing GitHub repositories one by one.
+    .benefit
+      %h4
+        Track and analyze student engagement.
+        <svg viewBox="0 0 20 20"><circle cx=10 cy=10 r=8 /></svg>
+      %div
+        All student code activity is pushed to your dashboard in realtime providing a historical analysis 
+        of activity over time. This allows you to proactively address under-engaged students while also
+        providing more challenging work to identified overachievers.
+    .benefit
+      %h4
+        Collaborate continuously and asynchronously.
+        <svg viewBox="0 0 20 20"><circle cx=10 cy=10 r=8 /></svg>
+      %div
+        Student activity is pushed to you automatically, so you can code-review and offer feedback throughout the entire development cycle --
+        no need to wait for students to upload their work
+    .benefit
+      %h4
+        Give students relevant feedback.
+        <svg viewBox="0 0 20 20"><circle cx=10 cy=10 r=8 /></svg>
+      %div
+        Utilize GitHub's fantastic code-review tools to provide rich feedback on a line-by-line basis.
+
+#benefits-students.slide-wrap
+  .slide-content
+    .graphic-headline
+      %h2.title Benefits for Students
+      :plain
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="150px" height="150px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+          <path d="M62.696,46.508c-4.899,0-8.883,3.984-8.883,8.881v12.638h1.756h1.68v17.882h3.438V68.027h4.018v17.882h3.436V68.027h0.002  h1.68h1.756V55.389C71.579,50.492,67.593,46.508,62.696,46.508z"/>
+          <path d="M62.697,46.13c4.23,0,7.671-3.441,7.671-7.672c0-4.23-3.441-7.671-7.671-7.671c-4.231,0-7.673,3.441-7.673,7.671  C55.024,42.689,58.466,46.13,62.697,46.13z M58.886,36.641l1.832-1.411c1.64,1.415,4.151,2.599,6.167,2.77  c0.017,0.152,0.046,0.301,0.046,0.457c0,2.336-1.899,4.235-4.234,4.235c-2.336,0-4.237-1.9-4.237-4.235  C58.46,37.805,58.621,37.194,58.886,36.641z"/>
+          <path d="M100,46.184H88.392v2.847c-1.329-1.285-3.134-2.081-5.125-2.081c-4.07,0-7.381,3.311-7.381,7.381l0.003,6.893l-3.312,12.846  h5.305v11.838h3.398V74.071h3.972v11.838h3.398V74.071h5.305l-2.476-9.553H100V46.184z M76.97,70.673l2.245-8.662l0.07-7.68  c0-2.197,1.786-3.984,3.983-3.984c2.197,0,3.983,1.787,3.983,3.984l0.003,7.095l2.312,9.247H76.97z M96.589,61.107h-4.786v-8.534  l4.786,3.626V61.107z M96.589,51.919l-3.067-2.324h3.067V51.919z"/>
+          <path d="M95.992,44.753c-0.505-0.816-1.555-3.869-3.519-3.809c-1.79,0.052-1.916,1.633-1.916,1.916  C90.557,45.658,94.581,45.567,95.992,44.753z"/>
+          <path d="M83.269,46.577c4.183,0,7.585-3.403,7.585-7.585c0-4.183-3.403-7.585-7.585-7.585c-4.183,0-7.586,3.403-7.586,7.585  C75.682,43.174,79.086,46.577,83.269,46.577z M79.095,38.842c0.814-0.315,1.945-0.853,2.999-1.684  c1.079,1.555,2.691,3.125,4.741,3.998c-0.736,1.207-2.052,2.023-3.567,2.023c-2.309,0-4.189-1.879-4.189-4.188  C79.08,38.94,79.093,38.893,79.095,38.842z"/>
+          <path d="M33.308,43.708c0-0.286-0.128-1.882-1.938-1.938c-1.987-0.061-3.049,3.026-3.559,3.851  C29.238,46.448,33.308,46.54,33.308,43.708z"/>
+          <path d="M47.154,53.971c0-4.115-3.348-7.465-7.465-7.465c-4.117,0-7.465,3.35-7.465,7.465l0.003,6.972l-3.349,12.994h5.365v11.972  h3.437V73.937h4.017v11.972h3.437V73.937H50.5l-3.346-12.909V53.971z"/>
+          <path d="M39.69,46.13c4.23,0,7.671-3.442,7.671-7.672c0-4.229-3.441-7.67-7.671-7.67c-4.229,0-7.672,3.441-7.672,7.67  C32.018,42.688,35.461,46.13,39.69,46.13z M35.47,38.306c1.09-0.422,2.745-1.234,4.024-2.61c1.068,0.985,2.607,1.878,4.353,1.986  c0.047,0.252,0.078,0.51,0.078,0.776c0,2.336-1.899,4.235-4.235,4.235c-2.336,0-4.235-1.9-4.235-4.235  C35.455,38.406,35.468,38.357,35.47,38.306z"/>
+          <rect x="11.765" y="68.312" width="3.398" height="17.596"/>
+          <rect x="19.136" y="68.312" width="3.398" height="17.596"/>
+          <path d="M17.149,46.95c-2.046,0-3.926,0.709-5.42,1.886V47.51H0.121v18.334h8.245v2.469h3.398V55.734  c0-2.969,2.416-5.386,5.385-5.386s5.385,2.417,5.385,5.386v12.579h3.398V55.734C25.932,50.89,21.992,46.95,17.149,46.95z   M3.532,50.921H6.6l-3.068,2.324V50.921z M8.318,62.433H3.532v-4.909l4.786-3.626V62.433z"/>
+          <path d="M17.151,46.577c4.183,0,7.585-3.403,7.585-7.585c0-4.183-3.402-7.585-7.585-7.585c-4.184,0-7.586,3.403-7.586,7.585  C9.564,43.174,12.967,46.577,17.151,46.577z M19.557,36.221l1.075,0.448c0.445,0.665,0.706,1.463,0.706,2.322  c0,2.309-1.878,4.188-4.187,4.188c-1.544,0-2.88-0.849-3.606-2.094C15.721,40.322,18.16,38.272,19.557,36.221z"/>
+        </svg>
+    <svg class="circle-connector" style="height:80%" viewBox="0 0 1 10" preserveAspectRatio="none"><line x1=0 y1=0 x2=0 y2=10 /></svg>
+    .benefit
+      %h4
+        Collaborate automatically.
+        <svg viewBox="0 0 20 20"><circle cx=10 cy=10 r=8 /></svg>
+      %div
+        Every time you push code, your teacher is automatically kept in the loop.
+        No more emailing code or manually zipping and uploading files to a server.
+    .benefit
+      %h4
+        Get feedback early and often.
+        <svg viewBox="0 0 20 20"><circle cx=10 cy=10 r=8 /></svg>
+      %div
+        Professional programming is a continous process where software gets better through iterative
+        testing and feedback cycles. Since your teacher is automatically synced with each and every update, you can apply these same real-world concepts to your class projects!
+    .benefit
+      %h4
+        Build a rock-solid portfolio.
+        <svg viewBox="0 0 20 20"><circle cx=10 cy=10 r=8 /></svg>
+      %div
+        All your code projects are created within your own personal account and credited to you.
+        No need to work from forks or private teacher-owned organizations.
+        Your final projects are great for demonstrating
+        %em real world skills
+        to potential employers.
+    .benefit
+      %h4
+        Practice pragramming like the pros.
+        <svg viewBox="0 0 20 20"><circle cx=10 cy=10 r=8 /></svg>
+      %div
+        Employers look for ability to work in an iterative, collaborative, version-controlled environment just as much if not more than coding ability alone.
+
+#how-it-works.slide-wrap
+  .slide-content
+    .graphic-headline
+      %h2.title How it Works
+      :plain
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+          <path d="M51.394,59.032c0,0,1.999,5.376,1.479,5.376s-3.656,4.668-3.656,4.668l4.176,6.565l6.955-2.763l3.306,2.763   l0.523,6.05l8.171,1.212l2.44-5.356l3.648-0.874l5.565,3.117l6.089-4.148l-1.739-5.707l1.739-3.448l6.608-1.389l1.389-8.289   l-6.084-2.763l-0.523-3.979l3.302-4.833l-4.864-7.006l-6.085,2.338l-3.479-2.338l-0.874-5.439l-7.997-1.031l-2.783,5.356   l-3.825,1.114l-4.869-3.369l-6.438,3.369l1.893,5.793l-2.381,4.003l-5.943,0.988l-0.87,8.312L51.394,59.032z M72.179,46.146   c6.475,0,11.741,5.002,11.741,11.178c0,6.18-5.267,11.178-11.741,11.178c-6.49,0-11.741-4.998-11.741-11.178   C60.438,51.148,65.688,46.146,72.179,46.146z M39.664,82.305l4.691-5.432l-2.877-4.797l2.153-3.113l5.007-2.964l-1.461-6.412   l-5.223-1.361l-1.479-3.286l2.086-5.086l-5.451-4.88l-4.306,2.613l-3.681-1.004l-1.976-5.562l-7.746,0.787l-1.416,5.129   l-3.078,1.995l-5.526-2.558l-4.951,5.868L7.375,57.6l-1.378,3.235l-4.999,2.181l0.709,6.632l5.459,1.987l1.555,3.022L6.43,79.499   l5.676,4.903l4.522-3.223l3.877,0.638l2.188,6.419l7.041-1.012c0,0,1.394-4.912,1.09-5.273c-0.311-0.358,3.968-1.917,3.968-1.917   L39.664,82.305z M31.285,72.567c-4.302,3.648-10.895,2.999-14.729-1.456c-3.833-4.463-3.451-11.032,0.847-14.681   c4.298-3.656,10.895-2.999,14.728,1.456C35.961,62.342,35.583,68.919,31.285,72.567z M59.557,20.5l-2.369-5.612l-4.767,0.354   l-1.562-2.803l-0.366-4.908l-5.463-1.322l-3.016,3.428l-3.081-0.133L35.839,6l-5.802,2.268l0.37,4.243l-2.169,2.393l-5.002-0.622   l-2.338,6.156l3.393,3.015l0.354,3.074l-4.038,3.207l2.598,5.959l5.219-0.188l1.952,2.267l-0.229,4.598l5.341,1.976l3.59-3.361   l2.9-0.027l2.834,3.562l5.904-2.433l-0.748-4.624l1.952-2.688l5.738,0.775l1.894-5.688c0,0-3.224-2.92-3.613-2.826   c-0.397,0.099,0.035-3.727,0.035-3.727L59.557,20.5z M48.93,23.129c1.165,4.629-1.834,9.359-6.695,10.564   c-4.86,1.204-9.745-1.574-10.906-6.207c-1.165-4.633,1.838-9.352,6.699-10.563C42.888,15.718,47.772,18.497,48.93,23.129z"/>
+        </svg>
+    .benefit
+      %h4
+        Makeist monitors and analyzes code activity on repositories hosted on GitHub.
+      %ol
+        %li Teachers create a classroom in narly using their GitHub account.
+        %li Students join the classroom using their GitHub account and specify their class project repositories.
+        %li Makeist monitors and aggregrates all repository activity onto a classroom dashboard.
+        %li Makeist analyzes git metadata for deeper insight into activity over each project's lifecycle.
+    .benefit
+      %h4
+        Makeist works within the standard GitHub workflow.
+      %p
+        Both teachers and students are free to use their own personal GitHub accounts. 
+        Code projects, privacy settings, and code-reviews are all managed within the normal GitHub workflow.
+
+#fork-strategy.slide-wrap
+  .slide-content
+    .graphic-headline
+      %h2.title No more forks!
+      :plain
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="128" height="128" viewBox="0 0 128 128">
+          <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-4 25.406v77.282c1.27-.374 2.611-.594 4-.594 1.389 0 2.731.213 4 .594v-4.688c0-2.4 2.699-6.478 4.938-7.406l23.313-9.813c5.87-2.495 9.75-8.381 9.75-14.781v-12.594c-1.27.374-2.611.594-4 .594-1.389 0-2.731-.213-4-.594v12.594c0 2.393-2.716 6.484-4.844 7.406-.007.003-.025-.003-.031 0l-23.25 9.813h-.031c-.643.268-1.251.593-1.844.938v-58.75c-1.269.381-2.611.594-4 .594-1.389 0-2.73-.219-4-.594zm42 2.594c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-38 76c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12z"
+          transform="translate(33)" />
+        </svg>
+    .benefit
+      %h4
+        What is the GitHub fork strategy?
+      %p
+        The
+        %a{ href: "https://education.github.com/guide/forks" } GitHub fork strategy
+        involves creating a skeleton repository for students to fork. Students commit their solution to their fork and submit it by opening a pull-request on the teacher's repository.
+        The teacher uses the pull-request interface to review and assess the student's code.
+        This works well for smaller problem-solution type assignments.
+    .benefit
+      %h4
+        Projects where the fork strategy breaks down:
+      %ul
+        %li Final projects due at course-completion, which demonstrate skills learned and should be used to build the student's portfolio.
+        %li Projects where you find it pertinent to privatize course-work between students -- all forkers of a repository can view the entire fork network.
+    .benefit
+      %h4
+        Forks send the wrong message to employers.
+      %ul
+        %li Forked projects give the impression the code was not the student's original work.
+        %li
+          Forked projects do not count toward the student's
+          %a{ href: "https://help.github.com/articles/why-are-my-contributions-not-showing-up-on-my-profile#commit-was-made-in-a-fork" }
+            GitHub statistics
+          \.
+      %p
+        Makeist empowers the <em>student</em> to create, maintain, iterate, and collaborate on his own projects just as he would in a professional environment.
+
+#about.slide-wrap
+  .slide-content
+    .graphic-headline
+      %h2.title About
+      :plain
+        <svg viewBox="0 0 52.4 52" style="enable-background:new 0 0 52.4 52;" xml:space="preserve">
+          <path d="M43.9,8.1c-0.1-0.2-0.2-0.3-0.4-0.4C38.9,2.6,33.1,0,26.5,0c-0.1,0-0.2,0-0.3,0c-0.1,0-0.3,0-0.5,0c-0.1,0-0.1,0-0.2,0.1   l-0.3,0.1l0.2-0.1c-2.2,0.1-4.3,0.4-6.3,1.2c-0.2,0-0.3,0.1-0.5,0.1c-2.2-1.2-4.7-1.3-7.3-0.2c1.1,0.6,2.1,1.5,2.6,2.7   c0,0,0,0-0.1,0.1c-1,0.7-1.9,1.4-2.9,2.3c-0.1,0-0.2,0.1-0.3,0.3v0.1c-0.4,0.3-0.8,0.6-1.1,1H9.4C8.8,8.3,8.3,9,7.8,9.8l0,0   c-1.3,1.6-2.3,3.4-3.2,5.3c-0.9,2.1-1.5,4.2-1.8,6.6c-0.2,0.7-0.3,1.5-0.3,2.4C0.8,24.4,0,25.7,0,27.7v2.7c0,2.5,1.3,3.8,3.8,3.8h1   C5.7,38.2,7.7,41.8,10.6,45c2.3,2.4,4.8,4.2,7.5,5.3c2.5,1.1,5.3,1.7,8.2,1.7c3,0,5.7-0.6,8.2-1.7c2.8-1.1,5.2-2.9,7.5-5.3   c2.9-3.2,4.9-6.8,5.8-10.8h0.8c2.5,0,3.8-1.3,3.8-3.8v-2.7c0-1.8-0.6-2.8-1.8-3.4c-0.1-0.9-0.2-1.8-0.3-2.6c-0.3-2-0.8-3.9-1.5-5.8   l0,0c-0.2-0.4-0.3-0.7-0.5-1.1C47.2,12.3,45.8,10.2,43.9,8.1z M48.4,25.4h0.2c0.4,0,0.8,0.1,1,0.2c0.9,0.3,1.3,0.9,1.3,2.1v2.7   c0,1.5-0.8,2.3-2.3,2.3h-0.5c0.3-1.5,0.4-3,0.4-4.5C48.5,27.2,48.4,26.3,48.4,25.4z M46.8,24.5v0.1c0,0.1,0,0.1,0,0.1   c0.1,1.1,0.2,2.2,0.2,3.5c0,1.7-0.2,3.3-0.5,4.9c0,0.1,0,0.1,0,0.3c-0.9,3.9-2.8,7.5-5.6,10.5c-3.4,3.7-7.4,5.9-12,6.4   c-0.9,0.1-1.8,0.2-2.6,0.2c-0.9,0-1.7-0.1-2.5-0.2c-4.7-0.5-8.601-2.7-12.101-6.4C8.8,40.9,7,37.3,6.1,33.4c0-0.2,0-0.2-0.1-0.3   c-0.2-1.6-0.4-3.2-0.4-4.9C5.6,27,5.7,26,5.8,25c0.7-0.3,1.5-0.8,2.5-1.4c0.8-0.4,1.899-1.2,3.3-2.1c1.2-0.7,2.7-1.9,4.4-3.5   c0.2-0.2,0.4-0.3,0.6-0.6c0.6,2.5,2.4,3.8,5.4,4c-1.1-2-1.1-4.2,0.1-7c0.7,0.6,1.5,1.3,2.6,1.9c1.4,0.9,3.101,1.9,5.101,2.9   C35.3,21.9,40.9,23.7,46.8,24.5z M21.1,13H21l0,0H21.1z M3.5,25.4c0,0,0.1,0,0.3,0l0.5,0.1c-0.101,0.9-0.2,1.7-0.2,2.7   c0,1.5,0.2,3,0.4,4.5H3.8c-1.5,0-2.3-0.8-2.3-2.3v-2.7c0-1.3,0.6-2,1.8-2.2C3.4,25.5,3.5,25.5,3.5,25.4z"/>
+          <path d="M21.1,41.4c-0.5-0.6-1-1.1-1.2-1.7c-0.2-0.2-0.4-0.3-0.6-0.3c-0.3-0.1-0.5-0.1-0.7,0c-0.2,0.2-0.3,0.3-0.4,0.6   c-0.1,0.2-0.1,0.4,0.101,0.7c0.399,0.7,0.899,1.2,1.6,1.9c1.9,1.9,4.2,2.9,7,2.9c2.7,0,5.1-1,7.1-2.9c0.6-0.7,1.1-1.2,1.5-1.9   c0.1-0.3,0.2-0.5,0.1-0.7c0-0.3-0.1-0.4-0.3-0.6c-0.3-0.1-0.5-0.1-0.8,0c-0.2,0-0.4,0.1-0.5,0.3c-0.4,0.6-0.7,1.1-1.2,1.7   c-1.7,1.5-3.601,2.3-5.9,2.3s-4.2-0.8-5.8-2.4V41.4z"/>
+          <path d="M20.9,24.7c-0.5-0.5-1.1-0.8-1.8-0.8c-0.8,0-1.5,0.3-2,0.8s-0.7,1.2-0.7,2c0,0.7,0.2,1.3,0.7,1.8c0.5,0.6,1.2,0.9,2,0.9   c0.7,0,1.3-0.3,1.8-0.9c0.6-0.5,0.9-1.1,0.9-1.8C21.8,25.9,21.5,25.2,20.9,24.7z M18.4,26c0.2-0.1,0.4-0.2,0.7-0.2   c0.2,0,0.4,0.1,0.5,0.2c0.3,0.2,0.3,0.4,0.3,0.7c0,0.2,0,0.5-0.3,0.6c-0.1,0.1-0.3,0.2-0.5,0.2c-0.3,0-0.5-0.1-0.7-0.2   c-0.1-0.1-0.2-0.4-0.2-0.6C18.2,26.4,18.3,26.2,18.4,26z"/>
+          <path d="M36.5,26.7c0-0.8-0.3-1.5-0.9-2c-0.5-0.5-1.1-0.8-1.8-0.8c-0.8,0-1.4,0.3-2,0.8c-0.5,0.5-0.7,1.2-0.7,2   c0,0.7,0.2,1.3,0.7,1.8c0.6,0.6,1.2,0.9,2,0.9c0.7,0,1.3-0.3,1.8-0.9C36.2,28,36.5,27.4,36.5,26.7z M34.4,26   c0.1,0.2,0.2,0.4,0.2,0.7c0,0.2-0.1,0.5-0.2,0.6c-0.2,0.1-0.4,0.2-0.6,0.2c-0.3,0-0.5-0.1-0.7-0.2c-0.1-0.1-0.2-0.4-0.2-0.6   c0-0.3,0.1-0.5,0.2-0.7c0.2-0.1,0.4-0.2,0.7-0.2C34,25.8,34.2,25.9,34.4,26z"/>
+          <path style="fill:#EDEDED;" d="M21,13h0.1H21L21,13z"/>
+        </svg>
+    .benefit
+      Makeist is in active development by
+      %a{ href: "http://plusjade.com/jade-dominguez/" } Jade Dominguez
+      \.
+      %br
+      Feedback is welcomed at
+      %a{ href: "http://twitter.com/plusjade", target: "_blank" } @plusjade
+      and
+      %a{ href: "mailto:plusjade@gmail.com", target: "_blank" } plusjade@gmail.com
+      \.
